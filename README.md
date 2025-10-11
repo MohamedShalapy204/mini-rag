@@ -1,5 +1,5 @@
 # mini-rag
-from mini rag course on you tub https://www.youtube.com/watch?v=VSFbkFRAT4w&amp;list=PLvLvlVqNQGHCUR2p0b8a0QpVjDUg50wQj&amp;index=3
+from mini rag course on youtub https://www.youtube.com/watch?v=VSFbkFRAT4w&amp;list=PLvLvlVqNQGHCUR2p0b8a0QpVjDUg50wQj&amp;index=3
 
 this is a minimal implementation of the RAG model for question
 answering.
@@ -24,3 +24,19 @@ $ conda activate mini-rag
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+
+## Installation
+
+### Install the required packages
+
+```bash
+$ pip install -r requirements.txt 
+```
+
+### Setup the environment variables
+
+```bash
+$ cp .env.example .env
+```
+
+Set your environment variables in the '.env' file. Like 'OPENAI_API_KEY'
