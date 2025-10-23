@@ -32,7 +32,7 @@ async def startup_span():
     )
     app.vectordb_client.connect()
 
-    app.tempalte_parser = TemplateParser(
+    app.template_parser = TemplateParser(
         language=settings.PRIMARY_LANG,
         default_language=settings.DEFAULT_LANG,
     )
