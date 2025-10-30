@@ -23,6 +23,13 @@ This is an educational project where all of the codes where explained (step by s
 
 - Python 3.8 or later
 
+#### Install Dependencies
+
+```bash
+sudo apt update
+sudo apt install libpq-dev gcc python3-dev
+```
+
 #### Install Python using Miniconda
 
 1) Download and install MiniConda from [here](https://www.anaconda.com/docs/getting-started/miniconda/install#linux-terminal-installer)
