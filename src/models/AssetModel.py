@@ -44,5 +44,6 @@ class AssetModel(BaseDataModel):
             )
             result = await session.execute(stmt)
             record = result.scalar_one_or_none()
+            
         return record
     
